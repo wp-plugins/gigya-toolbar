@@ -39,3 +39,14 @@ To start earning revenues from your toolbar, first set the toolbar on your site 
 Can I get reports (analytics) about my Toolbar?
 
 If you want to track analytics for your Toolbar, you must first sign up for a Gigya account here and enter your Gigya partner ID where it says "Your Gigya ID" in the code below. You can find your Partner ID in the account setting page. This allows Gigya to track your toolbar performance and pay you when users search from your toolbar. Don't have a Gigya account? See "Getting Paid" below.
+
+Troubleshooting
+
+If you have gone through the instruction above, but still don't see the Toolbar in your blog, your theme might not support adding code to your blog footer.
+To fix this:
+1) open the file named "footer.php" under your theme directory.
+2) Verify that this file does not contain the text "wp_footer()" in it
+3) then add the following code above the closing </body> tag:
+<div id=”wp_footer”><?php wp_footer(); ?></div>
+4) Save the file.
+Your theme should now support the footer hook and the toolbar should be seen.
