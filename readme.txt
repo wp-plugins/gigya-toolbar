@@ -30,7 +30,7 @@ If you want to customize the plug-in further go to the Plug-in tab in the WordPr
 You can read about the configuration options at Gigya online documentation - <a href="http://wiki.gigya.com/030_Gigya_Socialize_API_2.0/Social_Toolbar" title="Installations tutorial"> Installation tutorial and advanced configuration</a>
 
 
-== FAQ ==
+== Frequently Asked Questions ==
 
 How can I make money with the toolbar?
 
