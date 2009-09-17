@@ -4,7 +4,7 @@ Plugin Name: Gigya Toolbar for WordPress
 Plugin URI: http://gigya.com
 Description: This plugin integrate the Gigya Toolbar into your blog quickly and easily.
 Author: Gigya
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://gigya.com
 */
 
@@ -27,7 +27,7 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 		 *
 		 * @var array
 		 */
-		var $defaults = array( 'gigya-toolbar-for-wordpress-partner-id' => '671981', 'gigya-toolbar-for-wordpress-status-text' => 'reading %TITLE% at %URL%', 'gigya-toolbar-for-wordpress-email-subject' => 'Nice article - %TITLE%', 'gigya-toolbar-for-wordpress-email-body' => 'Take a look at this article - <a href=\'%URL%\'>%TITLE%</a> from %SITENAME%' );
+		var $defaults = array( 'gigya-toolbar-for-wordpress-partner-id' => '825901', 'gigya-toolbar-for-wordpress-status-text' => 'reading %TITLE% at %URL%', 'gigya-toolbar-for-wordpress-email-subject' => 'Nice article - %TITLE%', 'gigya-toolbar-for-wordpress-email-body' => 'Take a look at this article - <a href=\'%URL%\'>%TITLE%</a> from %SITENAME%' );
 
 		/**
 		 * Array of items that need to get rendered via JavaScript.
