@@ -48,12 +48,12 @@ The Social Toolbar includes a richness of features and we are adding more featur
 <ul>
 <li>Connect to one or more social networks - The toolbar currently supports connecting to FaceBook, Twitter, MySpace and Yahoo</li>
 <li>Update status/Tweet - Users can update status or tweet right from the toolbar. Site owners can set the default message text</li>
-<li>Google search – Get paid when users search from toolbar (coming soon)</li>
-<li>Share – One click share to over 80 social destinations</li>
-<li>Email – Users can email friends and even import contacts from Gmail, Hotmail, Yahoo and AOL</li>
+<li>Google search - Get paid when users search from toolbar (coming soon)</li>
+<li>Share - One click share to over 80 social destinations</li>
+<li>Email - Users can email friends and even import contacts from Gmail, Hotmail, Yahoo and AOL</li>
 <li>Hide/unhide toolbar</li>
-<li>Facebook “become a Fan” button – Coming soon!</li>
-<li>Related Tweets about site – Coming soon!</li>
+<li>Facebook "become a Fan" button - Coming soon!</li>
+<li>Related Tweets about site - Coming soon!</li>
 <li>Chat with social network friends directy from the toolbar - Coming soon!</li>
 </li> 
 
