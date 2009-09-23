@@ -35,7 +35,7 @@ If you want to customize the plug-in further go to the Plug-in tab in the WordPr
 
 You can read about the configuration options at Gigya online documentation - <a href="http://wiki.gigya.com/030_Gigya_Socialize_API_2.0/Social_Toolbar" title="Installations tutorial"> Installation tutorial and advanced configuration</a>
 
-<h2>Troubleshooting</h2>
+Troubleshooting
 
 If you have gone through the instruction above, but still don't see the Toolbar in your blog, your theme might not support adding code to your blog footer.
 Please follow the instructions <a href="http://wiki.gigya.com/030_Gigya_Socialize_API_2.0/Social_Toolbar/WordPress_Toolbar#Troubleshooting">here</a> to fix this.
