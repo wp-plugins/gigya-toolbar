@@ -44,7 +44,7 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 		 *
 		 * @var string
 		 */
-		var $version = '1.0.3';
+		var $version = '1.0.4';
 
 		/**
 		 * Adds all the appropriate actions and filters.
