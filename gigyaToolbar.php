@@ -44,7 +44,7 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 		 *
 		 * @var string
 		 */
-		var $version = '1.0.1';
+		var $version = '1.0.3';
 
 		/**
 		 * Adds all the appropriate actions and filters.
@@ -80,6 +80,10 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 				$settings[ 'gigya-toolbar-for-wordpress-status-text' ] = strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-status-text' ] ), '<a><img><div><span><strong><em><b><i>' );
 				$settings[ 'gigya-toolbar-for-wordpress-email-subject' ] = strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-email-subject' ] ), '<a><img><div><span><strong><em><b><i>' );
 				$settings[ 'gigya-toolbar-for-wordpress-email-body' ] = strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-email-body' ] ), '<a><img><div><span><strong><em><b><i>' );
+				$settings[ 'gigya-toolbar-for-wordpress-rss-url' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-rss-url' ] ) ) ) );
+				$settings[ 'gigya-toolbar-for-wordpress-twitter-name' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-twitter-name' ] ) ) ) );
+				$settings[ 'gigya-toolbar-for-wordpress-facebook-pageid' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-facebook-pageid' ] ) ) ) );
+
 				$this->saveSettings( $settings );
 				wp_redirect( 'options-general.php?page=gigya-toolbar&updated=true' );
 				exit( );
@@ -132,6 +136,9 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 				}
 				if( !isset( $this->settings[ 'gigya-toolbar-for-wordpress-email-body' ] ) || empty( $this->settings[ 'gigya-toolbar-for-wordpress-email-body' ] ) ) {
 					$this->settings[ 'gigya-toolbar-for-wordpress-email-body' ] = __( 'Take a look at this article - <a href=\'%URL%\'>%TITLE%</a> from %SITENAME%' );
+				}
+				if( !isset( $this->settings[ 'gigya-toolbar-for-wordpress-rss-url' ] ) || empty( $this->settings[ 'gigya-toolbar-for-wordpress-rss-url' ] ) ) {
+					$this->settings[ 'gigya-toolbar-for-wordpress-rss-url' ] = get_bloginfo( 'rss2_url' );
 				}
 			}
 			return $this->settings;

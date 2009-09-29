@@ -3,7 +3,7 @@ Contributors: gigya.com
 Tags: OpenID, Oauth, OpenSocial, FacebookConnect, MySpaceID, Twitter, authentication, newsfeed, tweet, status update, registration, social APIs, sharing, plugin, social bookmark, social network, blog, start page, Widget, Admin, Sidebar,Facebook, MySpace, community, registration, register, revenue, gigya, toolbar
 Requires at least: 2.5
 Tested up to: 2.8.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 
 Add the Gigya Toolbar for Free and increase traffic and revenues!
 
@@ -64,3 +64,19 @@ To start earning revenues from your toolbar, first set the toolbar on your site 
 Can I get reports (analytics) about my Toolbar?
 
 If you want to track analytics for your Toolbar, you must first sign up for a Gigya account on <a href="http://gigya.com">gigya.com</a> and enter your Gigya partner ID where it says "Your Gigya ID" in the WordPress administration panel. You can find your Partner ID in the account setting page. This allows Gigya to track your toolbar performance and pay you when users search from your toolbar.
+
+== Changelog ==
+
+= 1.0.3 =
+
+New features:
+
+* RSS button.
+* Twitter updates button.
+* Facebook fan page button.
+
+= 1.0.2 =
+* Bug fixes.
+
+= 1.0.1 =
+* Initial version.
