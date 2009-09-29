@@ -68,7 +68,6 @@ If you want to track analytics for your Toolbar, you must first sign up for a Gi
 == Changelog ==
 
 = 1.0.3 =
-
 New features:
 
 * RSS button.
