@@ -13,7 +13,7 @@
 				<tr>
 					<th scope="row"><label for="gigya-toolbar-for-wordpress-status-text"><?php _e( 'Default Status Message' ); ?></label></th>
 					<td>
-						<textarea class="large-text" rows="1" name="gigya-toolbar-for-wordpress-status-text"><?php echo htmlentities( $settings[ 'gigya-toolbar-for-wordpress-status-text' ] ); ?></textarea><br />
+						<textarea class="large-text" rows="1" name="gigya-toolbar-for-wordpress-status-text"><?php echo htmlspecialchars( $settings[ 'gigya-toolbar-for-wordpress-status-text' ] ); ?></textarea><br />
 						<?php _e( 'Use the following placeholders in the text above.  This text will be used when others share your article.' ); ?>
 						<ul>
 							<li><?php _e( '<code>%SITENAME%</code> - Replaced with the name of your WordPress blog.' ); ?></li>
@@ -25,7 +25,7 @@
 				<tr>
 					<th scope="row"><label for="gigya-toolbar-for-wordpress-email-subject"><?php _e( 'Email Subject' ); ?></label></th>
 					<td>
-						<textarea class="large-text" rows="1" name="gigya-toolbar-for-wordpress-email-subject"><?php echo htmlentities( $settings[ 'gigya-toolbar-for-wordpress-email-subject' ] ); ?></textarea><br />
+						<textarea class="large-text" rows="1" name="gigya-toolbar-for-wordpress-email-subject"><?php echo htmlspecialchars( $settings[ 'gigya-toolbar-for-wordpress-email-subject' ] ); ?></textarea><br />
 						<?php _e( 'Use the following placeholders in the text above.  This text will be used when others share your article.' ); ?>
 						<ul>
 							<li><?php _e( '<code>%SITENAME%</code> - Replaced with the name of your WordPress blog.' ); ?></li>
@@ -37,7 +37,7 @@
 				<tr>
 					<th scope="row"><label for="gigya-toolbar-for-wordpress-email-body"><?php _e( 'Email Body' ); ?></label></th>
 					<td>
-						<textarea class="large-text" rows="1" name="gigya-toolbar-for-wordpress-email-body"><?php echo htmlentities( $settings[ 'gigya-toolbar-for-wordpress-email-body' ] ); ?></textarea><br />
+						<textarea class="large-text" rows="1" name="gigya-toolbar-for-wordpress-email-body"><?php echo htmlspecialchars( $settings[ 'gigya-toolbar-for-wordpress-email-body' ] ); ?></textarea><br />
 						<?php _e( 'Use the following placeholders in the text above.  This text will be used when others share your article.' ); ?>
 						<ul>
 							<li><?php _e( '<code>%SITENAME%</code> - Replaced with the name of your WordPress blog.' ); ?></li>
