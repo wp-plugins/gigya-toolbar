@@ -4,7 +4,7 @@ Plugin Name: Gigya Toolbar for WordPress
 Plugin URI: http://gigya.com
 Description: This plugin integrate the Gigya Toolbar into your blog quickly and easily.
 Author: Gigya
-Version: 1.0.2
+Version: 1.0.4
 Author URI: http://gigya.com
 */
 
