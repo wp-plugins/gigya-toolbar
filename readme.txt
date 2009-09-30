@@ -51,10 +51,11 @@ The Social Toolbar includes a richness of features and we are adding more featur
 <li>Google search - Get paid when users search from toolbar (coming soon)</li>
 <li>Share - One click share to over 80 social destinations</li>
 <li>Email - Users can email friends and even import contacts from Gmail, Hotmail, Yahoo and AOL</li>
-<li>Hide/unhide toolbar</li>
-<li>Facebook "become a Fan" button - Coming soon!</li>
-<li>Related Tweets about site - Coming soon!</li>
+<li>Facebook "become a Fan" button</li>
+<li>Related Tweets about site</li>
+<li>Subscribe to feed button</li>
 <li>Chat with social network friends directy from the toolbar - Coming soon!</li>
+<li>Hide/unhide toolbar</li>
 </li> 
 
 How can I make money with the toolbar?
@@ -66,6 +67,8 @@ Can I get reports (analytics) about my Toolbar?
 If you want to track analytics for your Toolbar, you must first sign up for a Gigya account on <a href="http://gigya.com">gigya.com</a> and enter your Gigya partner ID where it says "Your Gigya ID" in the WordPress administration panel. You can find your Partner ID in the account setting page. This allows Gigya to track your toolbar performance and pay you when users search from your toolbar.
 
 == Changelog ==
+= 1.0.4 =
+* Bug fix - non English characters not presented correctly on settings page.
 
 = 1.0.3 =
 New features:
