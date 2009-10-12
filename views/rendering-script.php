@@ -30,6 +30,8 @@ if (!empty($emailBody))
 $twitterName = $settings[ 'gigya-toolbar-for-wordpress-twitter-name' ];
 $rssUrl = $settings[ 'gigya-toolbar-for-wordpress-rss-url' ];
 $facebookPageId = $settings[ 'gigya-toolbar-for-wordpress-facebook-pageid' ];
+$theme = $settings[ 'gigya-toolbar-for-wordpress-theme' ];
+$hideSearch = $settings[ 'gigya-toolbar-for-wordpress-hide-search' ];
 ?>
 <script>
 	var gs_partner = '<?php echo addslashes($partner); ?>';
@@ -50,6 +52,12 @@ $facebookPageId = $settings[ 'gigya-toolbar-for-wordpress-facebook-pageid' ];
 	<?php endif; ?>
 	<?php if (!empty($facebookPageId)) : ?>
 	var gs_facebookPageId = '<?php echo addslashes($facebookPageId); ?>';
+	<?php endif; ?>
+	<?php if (!empty($theme)) : ?>
+	var gs_theme = '<?php echo addslashes($theme); ?>';
+	<?php endif; ?>
+	<?php if (!empty($hideSearch) && ($hideSearch)) : ?>
+	var gs_hideSearch = true;
 	<?php endif; ?>
 </script>
 <script src="http://toolbar.cdn.gigya.com/toolbar.js"></script>

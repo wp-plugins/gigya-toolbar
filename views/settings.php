@@ -67,6 +67,21 @@
 						<?php _e( 'Enter your Facebook page ID to enable the "Fan Page" button' ); ?>
 					</td>
 				</tr>
+				<tr>
+					<th scope="row"><label for="gigya-toolbar-for-wordpress-theme"><?php _e( 'Toolbar Theme' ); ?></label></th>
+					<td>
+						<select id="gigya-toolbar-for-wordpress-theme" name="gigya-toolbar-for-wordpress-theme">
+							<option <?php selected( 'blue', $settings[ 'gigya-toolbar-for-wordpress-theme' ] ); ?> value="blue"><?php _e( 'Blue' ); ?></option>
+							<option <?php selected( 'gray', $settings[ 'gigya-toolbar-for-wordpress-theme' ] ); ?> value="gray"><?php _e( 'Gray' ); ?></option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row"><label for="gigya-toolbar-for-wordpress-hide-search"><?php _e( 'Hide Search Box' ); ?></label></th>
+					<td>
+						<input <?php checked( 1, $settings[ 'gigya-toolbar-for-wordpress-hide-search' ] ); ?>type="checkbox" value="1" id="gigya-toolbar-for-wordpress-hide-search" name="gigya-toolbar-for-wordpress-hide-search" />
+					</td>
+				</tr>
 
 			</tbody>
 		</table>

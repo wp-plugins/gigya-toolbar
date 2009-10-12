@@ -4,7 +4,7 @@ Plugin Name: Gigya Toolbar for WordPress
 Plugin URI: http://gigya.com
 Description: This plugin integrate the Gigya Toolbar into your blog quickly and easily.
 Author: Gigya
-Version: 1.0.4
+Version: 1.0.5
 Author URI: http://gigya.com
 */
 
@@ -44,7 +44,7 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 		 *
 		 * @var string
 		 */
-		var $version = '1.0.4';
+		var $version = '1.0.5';
 
 		/**
 		 * Adds all the appropriate actions and filters.
@@ -83,6 +83,8 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 				$settings[ 'gigya-toolbar-for-wordpress-rss-url' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-rss-url' ] ) ) ) );
 				$settings[ 'gigya-toolbar-for-wordpress-twitter-name' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-twitter-name' ] ) ) ) );
 				$settings[ 'gigya-toolbar-for-wordpress-facebook-pageid' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-facebook-pageid' ] ) ) ) );
+				$settings[ 'gigya-toolbar-for-wordpress-theme' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-theme' ] ) ) ) );
+				$settings[ 'gigya-toolbar-for-wordpress-hide-search' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-hide-search' ] ) ) ) );
 
 				$this->saveSettings( $settings );
 				wp_redirect( 'options-general.php?page=gigya-toolbar&updated=true' );

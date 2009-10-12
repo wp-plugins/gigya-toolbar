@@ -3,7 +3,7 @@ Contributors: gigya.com
 Tags: OpenID, Oauth, OpenSocial, FacebookConnect, MySpaceID, Twitter, authentication, newsfeed, tweet, status update, registration, social APIs, sharing, plugin, social bookmark, social network, blog, start page, Widget, Admin, Sidebar,Facebook, MySpace, community, registration, register, revenue, gigya, toolbar
 Requires at least: 2.5
 Tested up to: 2.8.4
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 
 Add the Gigya Toolbar for Free and increase traffic and revenues!
 
@@ -22,7 +22,6 @@ Important Links:
 
 * <a href="http://wiki.gigya.com/030_Gigya_Socialize_API_2.0/Social_Toolbar" title="Installations tutorial"> Installation tutorial and advanced configuration</a>
 * <a href="http://forum.gigya.com/forum/Default.aspx?g=topics&f=13" title="Tech support">Technical support forum</a>
-
 
 == Installation ==
 
@@ -47,15 +46,16 @@ What else can the toolbar do and what's your plan for future enhancements?
 The Social Toolbar includes a richness of features and we are adding more features every month:
 <ul>
 <li>Connect to one or more social networks - The toolbar currently supports connecting to FaceBook, Twitter, MySpace and Yahoo</li>
+<li>Facebook “Fan Page” button – Users can check out your page updates and can become a fan with one click</li>
+<li>Twitter updates button – Users can check out your recent tweets right from your toolbar</li>
 <li>Update status/Tweet - Users can update status or tweet right from the toolbar. Site owners can set the default message text</li>
-<li>Google search - Get paid when users search from toolbar (coming soon)</li>
+<li>Google site search – Users can search the content of your site</li>
 <li>Share - One click share to over 80 social destinations</li>
 <li>Email - Users can email friends and even import contacts from Gmail, Hotmail, Yahoo and AOL</li>
-<li>Facebook "become a Fan" button</li>
-<li>Related Tweets about site</li>
 <li>Subscribe to feed button</li>
-<li>Chat with social network friends directy from the toolbar - Coming soon!</li>
 <li>Hide/unhide toolbar</li>
+<li>Themes - use default or Blue themes. More themes coming soon</li>
+<li>Chat with social network friends directy from the toolbar - Coming soon!</li>
 </li> 
 
 How can I make money with the toolbar?
@@ -66,7 +66,17 @@ Can I get reports (analytics) about my Toolbar?
 
 If you want to track analytics for your Toolbar, you must first sign up for a Gigya account on <a href="http://gigya.com">gigya.com</a> and enter your Gigya partner ID where it says "Your Gigya ID" in the WordPress administration panel. You can find your Partner ID in the account setting page. This allows Gigya to track your toolbar performance and pay you when users search from your toolbar.
 
+== Screenshots ==
+1. Default theme.
+2. Blue theme.
+
 == Changelog ==
+= 1.0.5 =
+New features:
+
+* Toolbar themes - Select between default (gray) or blue theme. More themes coming soon!
+* Hide search box - You can hide the site search box.
+
 = 1.0.4 =
 * Bug fix - non English characters not presented correctly on settings page.
 
