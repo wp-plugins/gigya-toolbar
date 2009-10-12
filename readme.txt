@@ -46,10 +46,10 @@ What else can the toolbar do and what's your plan for future enhancements?
 The Social Toolbar includes a richness of features and we are adding more features every month:
 <ul>
 <li>Connect to one or more social networks - The toolbar currently supports connecting to FaceBook, Twitter, MySpace and Yahoo</li>
-<li>Facebook “Fan Page” button – Users can check out your page updates and can become a fan with one click</li>
-<li>Twitter updates button – Users can check out your recent tweets right from your toolbar</li>
+<li>Facebook "Fan Page" button - Users can check out your page updates and can become a fan with one click</li>
+<li>Twitter updates button - Users can check out your recent tweets right from your toolbar</li>
 <li>Update status/Tweet - Users can update status or tweet right from the toolbar. Site owners can set the default message text</li>
-<li>Google site search – Users can search the content of your site</li>
+<li>Google site search - Users can search the content of your site</li>
 <li>Share - One click share to over 80 social destinations</li>
 <li>Email - Users can email friends and even import contacts from Gmail, Hotmail, Yahoo and AOL</li>
 <li>Subscribe to feed button</li>
