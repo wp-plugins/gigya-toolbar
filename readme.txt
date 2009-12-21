@@ -56,7 +56,7 @@ The Social Toolbar includes a richness of features and we are adding more featur
 <li>Hide/unhide toolbar</li>
 <li>Themes - use default or Blue themes. More themes coming soon</li>
 <li>Chat with social network friends directy from the toolbar - Coming soon!</li>
-</li> 
+</ul> 
 
 How can I make money with the toolbar?
 
@@ -71,6 +71,15 @@ If you want to track analytics for your Toolbar, you must first sign up for a Gi
 2. Blue theme.
 
 == Changelog ==
+= 1.0.6 =
+New features:
+
+* New brown theme.
+* Welcome message - You can configure a welcome message that will be shown once when a user enters the site.
+
+Note: Starting from this version you have to enter your  API key from gigya for the toolbar to work.
+You can register your site and get your API key <a href="http://www.gigya.com/site/partners/Socialize.aspx" title="Gigya" target="_blank" >here</a>.
+
 = 1.0.5 =
 New features:
 
