@@ -4,7 +4,7 @@ Plugin Name: Gigya Toolbar for WordPress
 Plugin URI: http://wiki.gigya.com/030_Gigya_Socialize_API_2.0/Social_Toolbar
 Description: This plugin integrate the Gigya Toolbar into your blog quickly and easily.
 Author: Gigya
-Version: 1.0.5
+Version: 1.0.6
 Author URI: http://gigya.com
 */
 
@@ -44,7 +44,7 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 		 *
 		 * @var string
 		 */
-		var $version = '1.0.5';
+		var $version = '1.0.6';
 
 		/**
 		 * Adds all the appropriate actions and filters.
