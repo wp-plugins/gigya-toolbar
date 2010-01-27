@@ -3,7 +3,7 @@ Contributors: gigya.com
 Tags: OpenID, Oauth, OpenSocial, FacebookConnect, MySpaceID, Twitter, authentication, newsfeed, tweet, status update, registration, social APIs, sharing, plugin, social bookmark, social network, blog, start page, Widget, Admin, Sidebar,Facebook, MySpace, community, registration, register, revenue, gigya, toolbar
 Requires at least: 2.5
 Tested up to: 2.8.4
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 
 Add the Gigya Toolbar for Free and increase traffic and revenues!
 
@@ -71,6 +71,9 @@ If you want to track analytics for your Toolbar, you must first sign up for a Gi
 2. Blue theme.
 
 == Changelog ==
+= 1.0.7 =
+Bug fix - Getting "Call to a member function get_feed_permastruct() on  a non-object" error when activating the plugin.
+
 = 1.0.6 =
 New features:
 

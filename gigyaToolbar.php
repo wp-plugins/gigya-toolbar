@@ -4,7 +4,7 @@ Plugin Name: Gigya Toolbar for WordPress
 Plugin URI: http://wiki.gigya.com/030_Gigya_Socialize_API_2.0/Social_Toolbar
 Description: This plugin integrate the Gigya Toolbar into your blog quickly and easily.
 Author: Gigya
-Version: 1.0.6
+Version: 1.0.7
 Author URI: http://gigya.com
 */
 
@@ -44,7 +44,7 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 		 *
 		 * @var string
 		 */
-		var $version = '1.0.6';
+		var $version = '1.0.7';
 
 		/**
 		 * Adds all the appropriate actions and filters.
@@ -56,19 +56,6 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 			add_action( 'admin_menu', array( &$this, 'addAdministrativePage' ) );
 			add_action( 'init', array( &$this, 'savePluginSettings' ) );
 			add_action( 'wp_footer', array( &$this, 'displayRenderingPage' ) );
-			$settings = $this->getSettings( );
-			if( ($settings[ 'gigya-toolbar-for-wordpress-api-key' ] == null))
-			{
-				if ( $settings[ 'gigya-toolbar-for-wordpress-partner-id' ] == null )
-				{
-					add_action( 'admin_notices', array( &$this, 'activation_notice_new' ));
-				}
-				else 
-				{
-					add_action( 'admin_notices', array( &$this, 'activation_notice_update' ));
-				}
-			}
-
 		}
 
 		/// CALLBACKS
@@ -103,6 +90,18 @@ if( !class_exists( 'GigyaToolbarForWordPress' ) ) {
 		 */
 		function savePluginSettings() {
 			$settings = $this->getSettings( );
+			if( ($settings[ 'gigya-toolbar-for-wordpress-api-key' ] == null))
+			{
+				if ( $settings[ 'gigya-toolbar-for-wordpress-partner-id' ] == null )
+				{
+					add_action( 'admin_notices', array( &$this, 'activation_notice_new' ));
+				}
+				else 
+				{
+					add_action( 'admin_notices', array( &$this, 'activation_notice_update' ));
+				}
+			}
+
 			if( is_admin( ) && isset( $_POST[ 'save-gigya-toolbar-for-wordpress-settings' ] ) && check_admin_referer( 'save-gigya-toolbar-for-wordpress-settings' ) ) {
 				$settings[ 'gigya-toolbar-for-wordpress-api-key' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-api-key' ] ) ) ) );
 				$settings[ 'gigya-toolbar-for-wordpress-partner-id' ] = trim( htmlentities( strip_tags( stripslashes( $_POST[ 'gigya-toolbar-for-wordpress-partner-id' ] ) ) ) );
