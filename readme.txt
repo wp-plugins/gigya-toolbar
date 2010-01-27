@@ -2,7 +2,7 @@
 Contributors: gigya.com
 Tags: OpenID, Oauth, OpenSocial, FacebookConnect, MySpaceID, Twitter, authentication, newsfeed, tweet, status update, registration, social APIs, sharing, plugin, social bookmark, social network, blog, start page, Widget, Admin, Sidebar,Facebook, MySpace, community, registration, register, revenue, gigya, toolbar
 Requires at least: 2.5
-Tested up to: 2.8.4
+Tested up to: 2.9.1
 Stable tag: 1.0.7
 
 Add the Gigya Toolbar for Free and increase traffic and revenues!
