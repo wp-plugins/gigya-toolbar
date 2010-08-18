@@ -60,7 +60,7 @@ The Social Toolbar includes a richness of features and we are adding more featur
 
 How can I make money with the toolbar?
 
-To start earning revenues from your toolbar, first set the toolbar on your site and sign up for an account at <a href="http://gigya.com">Gigya</a>. Then contact us at partners@gigya.com with your partner ID.
+To start earning revenues from your toolbar, first set the toolbar on your site and sign up for an account at <a href="http://gigya.com">Gigya</a>. Then contact us at support@gigya-inc.com  with your partner ID.
 
 Can I get reports (analytics) about my Toolbar?
 
